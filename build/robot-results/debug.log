@@ -1,0 +1,274 @@
+==============================================================================
+20170922 12:46:16.572 - INFO - + START SUITE: Acceptancetest [ ]
+==============================================================================
+20170922 12:46:16.937 - INFO - +- START SUITE: Acceptancetest.TicTacToeTests [ ]
+==============================================================================
+20170922 12:46:17.041 - INFO - +-- START TEST: Win Diagonally as X [ ]
+------------------------------------------------------------------------------
+20170922 12:46:17.082 - INFO - +--- START KW: keywords.TicTacToeKeywords.Start New Game [ ]
+20170922 12:46:17.126 - INFO - +--- END KW: keywords.TicTacToeKeywords.Start New Game (39)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:17.133 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 1 | 1 ]
+20170922 12:46:17.159 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (27)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:17.164 - INFO - +--- START KW: Check Location [ 1 | 1 | X ]
+20170922 12:46:17.192 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
+20170922 12:46:17.213 - INFO - ${m} = X
+20170922 12:46:17.221 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (28)
+20170922 12:46:17.227 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20170922 12:46:17.278 - INFO - +---- END KW: BuiltIn.Should Be Equal (48)
+20170922 12:46:17.306 - INFO - +--- END KW: Check Location (123)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:17.316 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 0 | 1 ]
+20170922 12:46:17.335 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (18)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:17.339 - INFO - +--- START KW: Check Location [ 0 | 1 | O ]
+20170922 12:46:17.364 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
+20170922 12:46:17.383 - INFO - ${m} = O
+20170922 12:46:17.391 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (24)
+20170922 12:46:17.396 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20170922 12:46:17.432 - INFO - +---- END KW: BuiltIn.Should Be Equal (33)
+20170922 12:46:17.451 - INFO - +--- END KW: Check Location (98)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:17.456 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 0 | 0 ]
+20170922 12:46:17.491 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (34)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:17.494 - INFO - +--- START KW: Check Location [ 0 | 0 | X ]
+20170922 12:46:17.578 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
+20170922 12:46:17.599 - INFO - ${m} = X
+20170922 12:46:17.613 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (27)
+20170922 12:46:17.618 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20170922 12:46:17.641 - INFO - +---- END KW: BuiltIn.Should Be Equal (21)
+20170922 12:46:17.649 - INFO - +--- END KW: Check Location (154)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:17.653 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 0 | 2 ]
+20170922 12:46:17.679 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (25)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:17.685 - INFO - +--- START KW: Check Location [ 0 | 2 | O ]
+20170922 12:46:17.717 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
+20170922 12:46:17.759 - INFO - ${m} = O
+20170922 12:46:17.785 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (49)
+20170922 12:46:17.790 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20170922 12:46:17.840 - INFO - +---- END KW: BuiltIn.Should Be Equal (33)
+20170922 12:46:17.857 - INFO - +--- END KW: Check Location (171)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:17.861 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 2 | 2 ]
+20170922 12:46:17.879 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (16)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:17.882 - INFO - +--- START KW: Check Location [ 2 | 2 | X ]
+20170922 12:46:17.917 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
+20170922 12:46:17.932 - INFO - ${m} = X
+20170922 12:46:17.937 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (19)
+20170922 12:46:17.943 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20170922 12:46:17.972 - INFO - +---- END KW: BuiltIn.Should Be Equal (28)
+20170922 12:46:17.978 - INFO - +--- END KW: Check Location (95)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:17.982 - INFO - +--- START KW: Winner Should Be [ X ]
+20170922 12:46:17.991 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Winner [ ]
+20170922 12:46:18.020 - INFO - ${m} = X
+20170922 12:46:18.057 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Winner (51)
+20170922 12:46:18.063 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20170922 12:46:18.080 - INFO - +---- END KW: BuiltIn.Should Be Equal (16)
+20170922 12:46:18.095 - INFO - +--- END KW: Winner Should Be (103)
+------------------------------------------------------------------------------
+20170922 12:46:18.129 - INFO - +-- END TEST: Win Diagonally as X (1062)
+------------------------------------------------------------------------------
+20170922 12:46:18.135 - INFO - +-- START TEST: Win Horizontally as O [ ]
+------------------------------------------------------------------------------
+20170922 12:46:18.157 - INFO - +--- START KW: keywords.TicTacToeKeywords.Start New Game [ ]
+20170922 12:46:18.184 - INFO - +--- END KW: keywords.TicTacToeKeywords.Start New Game (26)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:18.188 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 1 | 1 ]
+20170922 12:46:18.201 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (13)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:18.204 - INFO - +--- START KW: Check Location [ 1 | 1 | X ]
+20170922 12:46:18.225 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
+20170922 12:46:18.240 - INFO - ${m} = X
+20170922 12:46:18.244 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (18)
+20170922 12:46:18.260 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20170922 12:46:18.281 - INFO - +---- END KW: BuiltIn.Should Be Equal (19)
+20170922 12:46:18.287 - INFO - +--- END KW: Check Location (81)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:18.291 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 2 | 0 ]
+20170922 12:46:18.309 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (18)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:18.312 - INFO - +--- START KW: Check Location [ 2 | 0 | O ]
+20170922 12:46:18.329 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
+20170922 12:46:18.343 - INFO - ${m} = O
+20170922 12:46:18.349 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (19)
+20170922 12:46:18.354 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20170922 12:46:18.404 - INFO - +---- END KW: BuiltIn.Should Be Equal (49)
+20170922 12:46:18.410 - INFO - +--- END KW: Check Location (98)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:18.420 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 0 | 0 ]
+20170922 12:46:18.436 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (18)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:18.442 - INFO - +--- START KW: Check Location [ 0 | 0 | X ]
+20170922 12:46:18.472 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
+20170922 12:46:18.486 - INFO - ${m} = X
+20170922 12:46:18.508 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (19)
+20170922 12:46:18.511 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20170922 12:46:18.570 - INFO - +---- END KW: BuiltIn.Should Be Equal (52)
+20170922 12:46:18.579 - INFO - +--- END KW: Check Location (134)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:18.585 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 2 | 2 ]
+20170922 12:46:18.596 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (13)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:18.599 - INFO - +--- START KW: Check Location [ 2 | 2 | O ]
+20170922 12:46:18.633 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
+20170922 12:46:18.650 - INFO - ${m} = O
+20170922 12:46:18.655 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (21)
+20170922 12:46:18.657 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20170922 12:46:18.681 - INFO - +---- END KW: BuiltIn.Should Be Equal (23)
+20170922 12:46:18.689 - INFO - +--- END KW: Check Location (89)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:18.693 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 0 | 2 ]
+20170922 12:46:18.740 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (32)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:18.754 - INFO - +--- START KW: Check Location [ 0 | 2 | X ]
+20170922 12:46:18.769 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
+20170922 12:46:18.784 - INFO - ${m} = X
+20170922 12:46:18.788 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (21)
+20170922 12:46:18.791 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20170922 12:46:18.841 - INFO - +---- END KW: BuiltIn.Should Be Equal (48)
+20170922 12:46:18.846 - INFO - +--- END KW: Check Location (101)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:18.852 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 2 | 1 ]
+20170922 12:46:18.863 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (11)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:18.875 - INFO - +--- START KW: Check Location [ 2 | 1 | O ]
+20170922 12:46:18.891 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
+20170922 12:46:18.904 - INFO - ${m} = O
+20170922 12:46:18.908 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (17)
+20170922 12:46:18.919 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20170922 12:46:18.931 - INFO - +---- END KW: BuiltIn.Should Be Equal (10)
+20170922 12:46:18.936 - INFO - +--- END KW: Check Location (61)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:18.939 - INFO - +--- START KW: Winner Should Be [ O ]
+20170922 12:46:18.947 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Winner [ ]
+20170922 12:46:18.956 - INFO - ${m} = O
+20170922 12:46:18.960 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Winner (13)
+20170922 12:46:18.965 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20170922 12:46:18.978 - INFO - +---- END KW: BuiltIn.Should Be Equal (12)
+20170922 12:46:18.984 - INFO - +--- END KW: Winner Should Be (45)
+------------------------------------------------------------------------------
+20170922 12:46:19.002 - INFO - +-- END TEST: Win Horizontally as O (854)
+------------------------------------------------------------------------------
+20170922 12:46:19.031 - INFO - +-- START TEST: Force a Tie [ ]
+------------------------------------------------------------------------------
+20170922 12:46:19.047 - INFO - +--- START KW: keywords.TicTacToeKeywords.Start New Game [ ]
+20170922 12:46:19.061 - INFO - +--- END KW: keywords.TicTacToeKeywords.Start New Game (12)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:19.065 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 1 | 1 ]
+20170922 12:46:19.109 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (43)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:19.112 - INFO - +--- START KW: Check Location [ 1 | 1 | X ]
+20170922 12:46:19.127 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
+20170922 12:46:19.153 - INFO - ${m} = X
+20170922 12:46:19.157 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (29)
+20170922 12:46:19.160 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20170922 12:46:19.179 - INFO - +---- END KW: BuiltIn.Should Be Equal (17)
+20170922 12:46:19.183 - INFO - +--- END KW: Check Location (71)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:19.188 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 0 | 0 ]
+20170922 12:46:19.205 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (18)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:19.215 - INFO - +--- START KW: Check Location [ 0 | 0 | O ]
+20170922 12:46:19.234 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
+20170922 12:46:19.264 - INFO - ${m} = O
+20170922 12:46:19.275 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (33)
+20170922 12:46:19.278 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20170922 12:46:19.295 - INFO - +---- END KW: BuiltIn.Should Be Equal (15)
+20170922 12:46:19.299 - INFO - +--- END KW: Check Location (84)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:19.305 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 2 | 0 ]
+20170922 12:46:19.321 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (16)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:19.324 - INFO - +--- START KW: Check Location [ 2 | 0 | X ]
+20170922 12:46:19.335 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
+20170922 12:46:19.353 - INFO - ${m} = X
+20170922 12:46:19.357 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (20)
+20170922 12:46:19.360 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20170922 12:46:19.376 - INFO - +---- END KW: BuiltIn.Should Be Equal (15)
+20170922 12:46:19.380 - INFO - +--- END KW: Check Location (56)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:19.387 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 0 | 2 ]
+20170922 12:46:19.416 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (28)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:19.421 - INFO - +--- START KW: Check Location [ 0 | 2 | O ]
+20170922 12:46:19.431 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
+20170922 12:46:19.465 - INFO - ${m} = O
+20170922 12:46:19.472 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (41)
+20170922 12:46:19.475 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20170922 12:46:19.486 - INFO - +---- END KW: BuiltIn.Should Be Equal (11)
+20170922 12:46:19.492 - INFO - +--- END KW: Check Location (71)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:19.496 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 0 | 1 ]
+20170922 12:46:19.514 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (17)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:19.517 - INFO - +--- START KW: Check Location [ 0 | 1 | X ]
+20170922 12:46:19.528 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
+20170922 12:46:19.541 - INFO - ${m} = X
+20170922 12:46:19.546 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (16)
+20170922 12:46:19.552 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20170922 12:46:19.564 - INFO - +---- END KW: BuiltIn.Should Be Equal (11)
+20170922 12:46:19.568 - INFO - +--- END KW: Check Location (51)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:19.572 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 2 | 1 ]
+20170922 12:46:19.582 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (8)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:19.585 - INFO - +--- START KW: Check Location [ 2 | 1 | O ]
+20170922 12:46:19.601 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
+20170922 12:46:19.611 - INFO - ${m} = O
+20170922 12:46:19.621 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (13)
+20170922 12:46:19.629 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20170922 12:46:19.655 - INFO - +---- END KW: BuiltIn.Should Be Equal (24)
+20170922 12:46:19.659 - INFO - +--- END KW: Check Location (73)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:19.666 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 1 | 2 ]
+20170922 12:46:19.678 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (12)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:19.682 - INFO - +--- START KW: Check Location [ 1 | 2 | X ]
+20170922 12:46:19.694 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
+20170922 12:46:19.705 - INFO - ${m} = X
+20170922 12:46:19.709 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (13)
+20170922 12:46:19.718 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20170922 12:46:19.729 - INFO - +---- END KW: BuiltIn.Should Be Equal (10)
+20170922 12:46:19.756 - INFO - +--- END KW: Check Location (74)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:19.761 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 1 | 0 ]
+20170922 12:46:19.778 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (16)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:19.781 - INFO - +--- START KW: Check Location [ 1 | 0 | O ]
+20170922 12:46:19.790 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
+20170922 12:46:19.805 - INFO - ${m} = O
+20170922 12:46:19.808 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (18)
+20170922 12:46:19.815 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20170922 12:46:19.827 - INFO - +---- END KW: BuiltIn.Should Be Equal (14)
+20170922 12:46:19.831 - INFO - +--- END KW: Check Location (49)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:19.834 - INFO - +--- START KW: keywords.TicTacToeKeywords.Mark Location [ 2 | 2 ]
+20170922 12:46:19.847 - INFO - +--- END KW: keywords.TicTacToeKeywords.Mark Location (12)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:19.853 - INFO - +--- START KW: Check Location [ 2 | 2 | X ]
+20170922 12:46:19.885 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
+20170922 12:46:19.920 - INFO - ${m} = X
+20170922 12:46:19.924 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Mark (37)
+20170922 12:46:19.926 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20170922 12:46:19.976 - INFO - +---- END KW: BuiltIn.Should Be Equal (48)
+20170922 12:46:19.981 - INFO - +--- END KW: Check Location (128)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170922 12:46:20.008 - INFO - +--- START KW: Winner Should Be [ TIE ]
+20170922 12:46:20.021 - INFO - +---- START KW: keywords.TicTacToeKeywords.Get Winner [ ]
+20170922 12:46:20.029 - INFO - ${m} = TIE
+20170922 12:46:20.033 - INFO - +---- END KW: keywords.TicTacToeKeywords.Get Winner (10)
+20170922 12:46:20.036 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
+20170922 12:46:20.048 - INFO - +---- END KW: BuiltIn.Should Be Equal (11)
+20170922 12:46:20.067 - INFO - +--- END KW: Winner Should Be (60)
+------------------------------------------------------------------------------
+20170922 12:46:20.086 - INFO - +-- END TEST: Force a Tie (1070)
+------------------------------------------------------------------------------
+20170922 12:46:20.187 - INFO - +- END SUITE: Acceptancetest.TicTacToeTests (3483)
+==============================================================================
+20170922 12:46:20.364 - INFO - + END SUITE: Acceptancetest (5126)
+==============================================================================
